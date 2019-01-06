@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task {{ task.id }}</title>
+</head>
+<body>
+	This is task {{ task.id }}.
+
+	<table border="1">
+		<thead>
+			<th>Task id</th>
+			<th>Task name</th>
+			<th>Task time</th>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>{{ task.id }}</td>
+				<td>{{ task.name }}</td>
+				<td>{{ task.time }}</td>
+			</tr>
+			<tr>
+				<td>{{ task.id }}</td>
+				<td>{{ task.name }}</td>
+				<td>{{ task.time }}</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>

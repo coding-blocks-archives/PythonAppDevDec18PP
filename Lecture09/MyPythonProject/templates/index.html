@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Python Project</title>
+	</head>
+	<body>
+		<h1>Hello World!</h1>
+		<p>Hi! I am {{ name }}! How are you?</p>
+
+		I love
+		<ul>
+			{% for hobby in hobbies %}
+				<li>{{ hobby }}</li>
+			{% endfor %}
+		</ul>
+
+		<table border="1">
+			<thead>
+				<th>A</th>
+				<th>B</th>
+				<th>C</th>
+			</thead>
+
+			<tbody>
+				{% for row in data %}
+				<tr>
+					{% for col in row %}
+					<td>{{ col }}</td>
+					{% endfor %}
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		
+	</body>
+</html>

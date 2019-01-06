@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Form</title>
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<form method="POST" enctype='multipart/form-data'>
+		<label>Name:</label><br>
+		<input type="text" name="name">
+		<br>
+
+		<label>Date of Birth:</label><br>
+		<input type="date" name="dob">
+		<br>
+
+		<label>Gender:</label><br>
+		<select name="gender">
+			<option selected>---------</option>
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
+		</select>
+		<br>
+
+		<label>Branch:</label><br>
+		<input type="text" name="branch">
+		<br>
+
+		<label>Roll No:</label><br>
+		<input type="number" name="roll_no">
+		<br>
+
+		<label>Photo:</label><br>
+		<input type="file" name="photo">
+		<br>
+
+		<br>
+		<input type="submit">
+	</form>
+</body>
+</html>
